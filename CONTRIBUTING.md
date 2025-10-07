@@ -162,7 +162,7 @@ git commit -m "Add Chocolate Chip Cookies recipe to Desserts"
 **Bad commit messages:**
 - ❌ "Update"
 - ❌ "Changes"
-- ❌ "asdf"
+- ❌ "New recipe"
 
 ### Step 6: Push to Your Fork
 
@@ -219,7 +219,7 @@ Before submitting your pull request, ensure:
 - [ ] File name uses lowercase and hyphens (no spaces)
 - [ ] All required frontmatter fields are present
 - [ ] Ingredients include quantities
-- [ ] Instructions use the `<Steps>` component
+- [ ] Instructions use the `<Steps>` component (default if you copied the template)
 - [ ] Recipe displays correctly (`npm run dev`)
 - [ ] Build succeeds without errors (`npm run build`)
 - [ ] Commit message is descriptive
@@ -269,6 +269,7 @@ All contributors will be acknowledged! Your GitHub profile will appear in:
 ## 📚 Learning Resources
 
 ### Git Basics
+- [Our Git Tutorial](https://github.com/empa-scientific-it/how-to-git/)
 - [GitHub's Git Handbook](https://guides.github.com/introduction/git-handbook/)
 - [Learn Git Branching](https://learngitbranching.js.org/)
 - [Git Documentation](https://git-scm.com/doc)
@@ -280,23 +281,6 @@ All contributors will be acknowledged! Your GitHub profile will appear in:
 ### Astro/Starlight
 - [Starlight Documentation](https://starlight.astro.build/)
 - [Astro Documentation](https://docs.astro.build)
-
-## 🤝 Code of Conduct
-
-### Our Standards
-
-- Be respectful and inclusive
-- Welcome newcomers warmly
-- Give constructive feedback
-- Focus on what's best for the community
-- Show empathy towards others
-
-### Unacceptable Behavior
-
-- Harassment or discriminatory language
-- Trolling or insulting comments
-- Publishing others' private information
-- Any conduct that would be inappropriate in a professional setting
 
 ## 📄 License
 
