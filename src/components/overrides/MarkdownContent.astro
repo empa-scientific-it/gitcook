@@ -1,0 +1,24 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/MarkdownContent.astro';
+import RecipeIngredients from '../RecipeIngredients.astro';
+
+// Access the page data from Starlight
+const entry = Astro.locals.starlightRoute?.entry;
+const ingredients = entry?.data?.ingredients;
+const description = entry?.data?.description;
+
+// Check if this is a recipe page (has ingredients in frontmatter)
+const isRecipePage = ingredients && Array.isArray(ingredients) && ingredients.length > 0;
+---
+
+{isRecipePage ? (
+	<Default {...Astro.props}>
+		<RecipeIngredients description={description} ingredients={ingredients} />
+		<slot />
+	</Default>
+) : (
+	<Default {...Astro.props}>
+		<slot />
+	</Default>
+)}

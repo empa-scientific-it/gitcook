@@ -1,0 +1,15 @@
+---
+interface Props {
+    description?: string;
+    ingredients: string[];
+}
+
+const { description, ingredients } = Astro.props;
+---
+
+{description && <p>{description}</p>}
+
+<h2>Ingredients</h2>
+<ul>
+    {ingredients.map((ingredient) => <li>{ingredient}</li>)}
+</ul>
