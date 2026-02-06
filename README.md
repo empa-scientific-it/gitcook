@@ -1,5 +1,7 @@
 # 🍳 Git Recipe Book
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5ebe8ac0-7b17-4218-972b-2ce23700e1da/deploy-status)](https://app.netlify.com/projects/gitcook/deploys)
+
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
 A hands-on Git tutorial where you learn by contributing recipes to a collaborative cookbook. This project teaches Git fundamentals through practical, real-world contributions.
