@@ -4,8 +4,7 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://gitcook.github.io",
-  base: "/gitcook",
+  site: "https://gitcook.netlify.app",
   integrations: [
     starlight({
       title: "Git Recipe Book",
