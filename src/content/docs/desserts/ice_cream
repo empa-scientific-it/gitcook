@@ -15,7 +15,7 @@ ingredients:
 servings: 10
 prepTime: 25 minutes
 cookTime: 10 minutes (plus 6 hours freezing)
----
+------
 
 import { Steps } from '@astrojs/starlight/components';
 
