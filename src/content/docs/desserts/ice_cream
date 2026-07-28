@@ -1,0 +1,47 @@
+---
+title: Exotic Duo Ice Cream (Dragon Fruit & Pandan Coconut)
+description: Escape to the tropics with this churned ice cream duo featuring two vibrant exotic flavors: a refreshing, magenta Dragon Fruit sorbet-gelato hybrid and a rich, creamy Pandan Coconut cream.
+category: dessert
+ingredients:
+  - 1 1/2 cups heavy cream
+  - 1 1/2 cups full-fat coconut milk
+  - 1 cup sweetened condensed milk
+  - 1 cup fresh red dragon fruit puree (pitaya)
+  - 2 tbsp fresh lime juice
+  - 1 tbsp pandan paste (or 3-4 steeped fresh pandan leaves)
+  - 1/2 cup white sugar
+  - 1/4 tsp fine sea salt
+  - 1 tsp vanilla extract
+servings: 10
+prepTime: 25 minutes
+cookTime: 10 minutes (plus 6 hours freezing)
+---
+
+import { Steps } from '@astrojs/starlight/components';
+
+## Instructions
+
+<Steps>
+
+1. **Prepare the Base Division:** In a large bowl, whisk together the heavy cream, coconut milk, sweetened condensed milk, and sea salt until completely smooth. Divide this mixture equally into two separate bowls.
+
+2. **Make the Fruity Dragon Fruit Base:** To the first bowl, add the red dragon fruit puree, lime juice, and 1/4 cup of sugar. Whisk vigorously until blended into a bright magenta mixture. Cover and chill in the fridge for 1 hour.
+
+3. **Make the Creamy Pandan Base:** To the second bowl, add the remaining 1/4 cup of sugar, vanilla extract, and pandan paste. Stir well until the mixture turns a soft pastel green and the pandan is fully incorporated. Cover and chill in the fridge for 1 hour.
+
+4. **Churn the Pandan Base:** Pour the chilled pandan mixture into your ice cream maker and churn according to the manufacturer's directions (usually 20–25 minutes) until it reaches soft-serve consistency. Spread into one half of a chilled loaf pan or freezer-safe container.
+
+5. **Churn the Dragon Fruit Base:** Wipe down the ice cream maker bowl quickly (or use a second bowl), then churn the chilled dragon fruit mixture for 20–25 minutes. 
+
+6. **Combine & Swirl:** Spoon the churned dragon fruit ice cream into the other half of the container. Gently drag a butter knife through both flavors in a figure-eight pattern to create an eye-catching green and pink swirl.
+
+7. **Freeze:** Press a piece of parchment paper directly onto the surface of the ice cream, cover with an airtight lid, and freeze for at least 6 hours (preferably overnight) until firm.
+
+</Steps>
+
+## Tips for Success
+
+- **Use Red Pitaya**: Make sure to use **red/pink** dragon fruit rather than white for that stunning contrast and richer, sweeter berry-like flavor.
+- **Lime is Essential**: Don't skip the lime juice in the fruity layer—dragon fruit is naturally low in acid, and the citrus cuts through the sweet base to make the flavor pop!
+- **Pandan Paste**: Pandan is often called the "vanilla of Southeast Asia" with warm notes of coconut and toasted rice. Look for pandan paste at your local Asian market.
+- **Scoop Softness**: Because homemade ice cream lacks artificial softeners, let the container sit on the counter for 5–10 minutes before scooping for the best texture.
