@@ -7,6 +7,11 @@ export default defineConfig({
   site: "https://gitcook.netlify.app",
   integrations: [
     starlight({
+      favicon: "/favicon.ico",
+      logo: {
+        src: "./src/assets/Logo_Cubeonly_Empa.svg",
+        alt: "Empa Scientific IT Logo",
+      },
       title: "Git Recipe Book",
       description:
         "A collaborative recipe book - Learn Git by contributing recipes!",
@@ -16,6 +21,9 @@ export default defineConfig({
           label: "GitHub",
           href: "https://github.com/empa-scientific-it/gitcook",
         },
+      ],
+      customCss: [
+        "./src/styles/customColors.css",
       ],
       components: {
         MarkdownContent: "./src/components/overrides/MarkdownContent.astro",
