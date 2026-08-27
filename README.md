@@ -58,6 +58,7 @@ The local site runs at `http://localhost:4321`.
 │   │       ├── desserts/
 │   │       ├── main-courses/
 │   │       └── index.mdx
+|   ├── styles/
 │   └── content.config.ts
 ├── astro.config.mjs
 ├── package.json
