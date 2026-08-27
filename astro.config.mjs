@@ -27,15 +27,15 @@ export default defineConfig({
         },
         {
           label: "Appetizers",
-          autogenerate: { directory: "appetizers" },
+          items: [{ autogenerate: { "directory": "appetizers" } }]
         },
         {
           label: "Main Courses",
-          autogenerate: { directory: "main-courses" },
+          items: [{ autogenerate: { "directory": "main-courses" } }]
         },
         {
           label: "Desserts",
-          autogenerate: { directory: "desserts" },
+          items: [{ autogenerate: { "directory": "desserts" } }]
         },
       ],
     }),

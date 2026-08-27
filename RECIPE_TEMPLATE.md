@@ -1,93 +1,52 @@
 # Recipe Template
 
-Use this template when creating a new recipe. Copy the content below to a new `.mdx` file in the appropriate category folder.
+Copy this into a new `.mdx` file under `src/content/docs/`.
+Remember to choose the right folder to place your recipe in.
 
-## File Naming
+## Quick Rules
 
-- Use lowercase letters
-- Replace spaces with hyphens
-- Example: `chocolate-chip-cookies.mdx`
+- Recipe pages are MDX files inside `src/content/docs/`
+- Use a lowercase, hyphenated file name such as `chocolate-chip-cookies.mdx`
+- Put the file in the correct category folder
+- Include `title`, `description`, `category`, and `ingredients` in the recipe details block at the top
+- Use ingredient quantities where possible
+- Import `Steps` from `@astrojs/starlight/components`
+- Write the method inside the `<Steps>` block
 
-## Category Folders
+## Recipe Content Model
 
-Save your recipe in one of these folders:
-- `src/content/docs/appetizers/`
-- `src/content/docs/main-courses/`
-- `src/content/docs/desserts/`
+**The schema supports these recipe fields:**
+
+- `title`
+- `description`
+- `category`
+- `ingredients`
+- `servings`
+- `prepTime`
+- `cookTime`
+
+**Supported recipe categories are:**
+
+- `appetizer`
+- `first-course`
+- `main-course`
+- `side-dish`
+- `dessert`
+- `beverage`
 
 ## Template
 
 ```mdx
 ---
 title: Your Recipe Name
-description: A brief, enticing description of your dish. What makes it special? What's its origin? (This will appear at the top of your recipe page)
-category: dessert  # Choose one: appetizer, first-course, main-course, side-dish, dessert, or beverage
-ingredients:
-  - Ingredient 1 with quantity (e.g., "2 cups all-purpose flour")
-  - Ingredient 2 with quantity
-  - Ingredient 3 with quantity
-  - Add as many as needed
-servings: 4  # Optional: number of servings
-prepTime: 15 minutes  # Optional: preparation time
-cookTime: 30 minutes  # Optional: cooking time
----
-
-import { Steps } from '@astrojs/starlight/components';
-
-## Instructions
-
-<Steps>
-
-1. First step with clear, detailed instructions
-
-2. Second step with clear instructions
-
-3. Continue with numbered steps - be as detailed as needed
-
-4. Include cooking times, temperatures, and visual cues (e.g., "until golden brown")
-
-5. Final step
-
-</Steps>
-
-## Tips (optional)
-
-- Add helpful tips here
-- Mention possible variations or substitutions
-- Include storage instructions if relevant
-- Note any common mistakes to avoid
-
-## Notes (optional)
-
-Optional section for any additional information:
-- Origin or history of the dish
-- Dietary information (vegetarian, vegan, gluten-free, etc.)
-- Suggested pairings or accompaniments
-```
-
-**Important Notes:**
-- The `description` from your frontmatter will automatically appear at the top of your recipe page
-- The ingredients list is automatically generated from your frontmatter
-- You only need to copy the import line and write the instructions - that's it!
-
-## Example Usage
-
-For a file named `src/content/docs/desserts/chocolate-cake.mdx`:
-
-```mdx
----
-title: Decadent Chocolate Cake
-description: This chocolate cake is incredibly moist and rich, with a deep chocolate flavor that chocolate lovers will adore.
+description: A short introduction to the dish.
 category: dessert
 ingredients:
-  - 2 cups all-purpose flour
-  - 2 cups granulated sugar
-  - 3/4 cup cocoa powder
-  - 2 large eggs
-  - 1 cup milk
-servings: 12
-prepTime: 20 minutes
-cookTime: 35 minutes
+  - 2 cups ingredient one
+  - 1 tablespoon ingredient two
+servings: 4
+prepTime: 15 minutes
+cookTime: 30 minutes
 ---
 
 import { Steps } from '@astrojs/starlight/components';
@@ -96,33 +55,21 @@ import { Steps } from '@astrojs/starlight/components';
 
 <Steps>
 
-1. Preheat oven to 350°F (175°C). Grease and flour two 9-inch round pans.
+1. First step.
 
-2. In a large bowl, combine flour, sugar, and cocoa powder.
+2. Second step.
 
-3. Add eggs and milk, beat until smooth.
-
-4. Pour batter into prepared pans.
-
-5. Bake for 30-35 minutes or until a toothpick comes out clean.
-
-6. Cool in pans for 10 minutes, then turn out onto wire racks.
+3. Final step.
 
 </Steps>
 
 ## Tips
 
-- Don't overbake - the cake should be moist
-- Let layers cool completely before frosting
-- This cake pairs wonderfully with vanilla buttercream
+- Optional tip or variation
 ```
 
-## Checklist Before Submitting
+## Notes
 
-- [ ] File is saved in the correct category folder
-- [ ] File name uses lowercase and hyphens
-- [ ] All required frontmatter fields are filled (title, description, category, ingredients)
-- [ ] Ingredients include quantities
-- [ ] Instructions use the `<Steps>` component
-- [ ] Recipe has been tested locally (`npm run dev`)
-- [ ] Site builds successfully (`npm run build`)
+- `description` is displayed automatically on the page
+- `ingredients` are rendered automatically from the recipe details block at the top
+- `servings`, `prepTime`, and `cookTime` are optional

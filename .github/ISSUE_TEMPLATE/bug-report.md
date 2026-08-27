@@ -9,35 +9,25 @@ assignees: ''
 ## Bug Description
 
 **What happened?**
-<!-- A clear description of the bug -->
+<!-- Describe the problem in a few words -->
 
 
 **What did you expect to happen?**
 
 
 **Where did this occur?**
-<!-- Which page? Which recipe? -->
-- Page URL:
-- Recipe name (if applicable):
+<!-- Which page or recipe? -->
 
 ## Steps to Reproduce
 
-1. Go to '...'
-2. Click on '...'
-3. Scroll down to '...'
-4. See error
+1. Go to ...
+2. Do ...
+3. See the problem
 
-## Environment
+## Screenshot
 
-- **Browser:** <!-- e.g., Chrome, Firefox, Safari -->
-- **Operating System:** <!-- e.g., Windows 11, macOS, Linux -->
-- **Device:** <!-- e.g., Desktop, Mobile -->
-
-## Screenshots
-
-<!-- If applicable, add screenshots to help explain the problem -->
-
+<!-- Optional -->
 
 ## Additional Context
 
-<!-- Any other information about the problem -->
+<!-- Optional -->
