@@ -12,7 +12,7 @@ export default defineConfig({
         src: "./src/assets/Logo_Cubeonly_Empa.svg",
         alt: "Empa Scientific IT Logo",
       },
-      title: "Git Recipe Book",
+      title: "Gitcook",
       description:
         "A collaborative recipe book - Learn Git by contributing recipes!",
       social: [
