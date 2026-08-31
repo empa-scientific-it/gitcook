@@ -12,16 +12,12 @@ assignees: ''
 
 
 **What category should it be in?**
-<!-- appetizer / main-course / dessert / other -->
+<!-- Optional -->
 
 
-**Why this recipe?**
-<!-- Tell us why this recipe would be a great addition! -->
-
-
-**Any specific requirements or preferences?**
-<!-- Dietary restrictions, cooking methods, etc. -->
+**Anything else we should know?**
+<!-- Optional: ingredients, dietary needs, or cooking style -->
 
 
 **Would you be willing to contribute this recipe yourself?**
-<!-- Yes / No / Maybe with help -->
+<!-- Yes / No / Maybe -->

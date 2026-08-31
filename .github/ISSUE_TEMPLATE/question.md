@@ -11,20 +11,18 @@ assignees: ''
 **What would you like to know?**
 
 
-**What have you tried so far?**
-<!-- Have you checked the documentation? Searched existing issues? -->
+**What are you trying to do?**
 
 
-**Context**
-<!-- Any additional information that might help us answer your question -->
+**What have you already checked?**
+<!-- Optional: README.md, CONTRIBUTING.md, RECIPE_TEMPLATE.md, or existing issues -->
 
 
 ---
 
 ## Quick Links
 
-Before asking, you might find your answer here:
-- [README.md](../../README.md) - Project overview
-- [CONTRIBUTING.md](../../CONTRIBUTING.md) - How to contribute
-- [RECIPE_TEMPLATE.md](../../RECIPE_TEMPLATE.md) - Recipe format guide
-- [Existing Issues](../../issues) - Previous discussions
+Before asking, you may find the answer here:
+- [README.md](../../README.md)
+- [CONTRIBUTING.md](../../CONTRIBUTING.md)
+- [RECIPE_TEMPLATE.md](../../RECIPE_TEMPLATE.md)
