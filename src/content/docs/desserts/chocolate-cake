@@ -1,0 +1,29 @@
+---
+title: Chocolate cake
+description: Best recipe ever!
+category: dessert
+ingredients:
+  - sugar
+  - 1 tablespoon baking powder
+servings: 4
+prepTime: 25 minutes
+cookTime: 30 minutes
+---
+
+import { Steps } from '@astrojs/starlight/components';
+
+## Instructions
+
+<Steps>
+
+1. Prepare Batter.
+
+2. Pour batter in cake pans step.
+
+3. BAke in oven.
+
+</Steps>
+
+## Tips
+
+- 
