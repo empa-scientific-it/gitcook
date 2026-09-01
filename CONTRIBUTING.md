@@ -1,7 +1,6 @@
 # Contributing to This Repository
 
 This guide is for contributing directly to the existing Git Recipe Book repository.
-If you want to create your own recipe site from this codebase instead, use [GIT_TEMPLATE.md](./GIT_TEMPLATE.md).
 
 For the recipe format itself, use [RECIPE_TEMPLATE.md](./RECIPE_TEMPLATE.md).
 
