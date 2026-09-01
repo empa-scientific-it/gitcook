@@ -1,0 +1,29 @@
+---
+title: chocolate-cake
+description: Best recipe ever
+category: dessert
+ingredients:
+  - 2 cups ingredient one
+  - 1 tablespoon ingredient two
+servings: 4
+prepTime: 15 minutes
+cookTime: 30 minutes
+---
+
+import { Steps } from '@astrojs/starlight/components';
+
+## Instructions
+
+<Steps>
+
+1. Batter
+
+2. Bake
+
+3. Enjoy
+
+</Steps>
+
+## Tips
+
+- Optional tip or variation
