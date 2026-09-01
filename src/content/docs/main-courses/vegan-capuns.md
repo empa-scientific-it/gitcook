@@ -1,52 +1,29 @@
-# Recipe Template
-
-Copy this into a new `.mdx` file under `src/content/docs/`.
-Remember to choose the right folder to place your recipe in.
-
-## Quick Rules
-
-- Recipe pages are MDX files inside `src/content/docs/`
-- Use a lowercase, hyphenated file name such as `chocolate-chip-cookies.mdx`
-- Put the file in the correct category folder
-- Include `title`, `description`, `category`, and `ingredients` in the recipe details block at the top
-- Use ingredient quantities where possible
-- Import `Steps` from `@astrojs/starlight/components`
-- Write the method inside the `<Steps>` block
-
-## Recipe Content Model
-
-**The schema supports these recipe fields:**
-
-- `title`
-- `description`
-- `category`
-- `ingredients`
-- `servings`
-- `prepTime`
-- `cookTime`
-
-**Supported recipe categories are:**
-
-- `appetizer`
-- `first-course`
-- `main-course`
-- `side-dish`
-- `dessert`
-- `beverage`
-
-## Template
-
-```mdx
 ---
-title: Your Recipe Name
-description: A short introduction to the dish.
-category: dessert
+title: Vegan Capuns
+description: A delicious traditional swiss dish in a vegan variation
+category: main-course
 ingredients:
-  - 2 cups ingredient one
-  - 1 tablespoon ingredient two
+  - 220g Chnöpflimehl
+  - 1 ½TL Black Salt
+  - 1dl plant milk
+  - 2 dl Water
+  - ½Bund fresh parsley
+  - ½Bund fresh chives
+  - 2 branches peppermint
+  - ¼ Glas sun-dried tomatoes
+  - 1 veganerLandjäger
+  - 20 Mangold leaves
+  - 2 grosse red onions
+  - 40 gVegan Butter
+  - 350ml vegetable broth
+  - 250g Smoked tofu
+  - 1 Lorbeerblatt
+  - 1 Päckli Porcini mushroom powder
+  - Salt & pepper
+
 servings: 4
-prepTime: 15 minutes
-cookTime: 30 minutes
+prepTime: 50 minutes
+cookTime: 40 minutes
 ---
 
 import { Steps } from '@astrojs/starlight/components';
@@ -56,20 +33,16 @@ import { Steps } from '@astrojs/starlight/components';
 <Steps>
 
 1. First step.
+Poach the chard leaves and set aside. Finely chop the sun-dried tomatoes, vegan Landjäger (a type of dried sausage), and all the herbs. For the dough, combine the spaetzle flour, Kala Namak (black salt), plant-based milk, water, and olive oil in a blender and mix until smooth. Gently fold in the chopped ingredients. Lay the poached chard leaves flat, one at a time, and place a teaspoon of dough on each leaf. Roll them up like a burrito. Bring salted water to a boil, then reduce the heat. Once the water is no longer boiling, carefully add the capuns and let them simmer for about 10 minutes. Remove the capuns and set aside. For the broth, finely dice one large onion and one block of smoked tofu. Melt the plant-based butter in a large frying pan and add the onions. Once they are translucent, add the diced tofu. Deglaze with the vegetable stock. Add the porcini powder and the bay leaf. Season with salt and pepper. Once the broth has reduced slightly, add the capuns and simmer gently, covered, for about 10 minutes.
 
 2. Second step.
+Meanwhile, slice an onion into rings. Melt some vegan butter in a frying pan and sauté the onions until golden brown.
 
-3. Final step.
-
+4. Final step.
+To serve, pour some broth into a plate, place the capuns on top, and garnish with the sautéed onions. Enjoy!
 </Steps>
 
 ## Tips
 
 - Optional tip or variation
 ```
-
-## Notes
-
-- `description` is displayed automatically on the page
-- `ingredients` are rendered automatically from the recipe details block at the top
-- `servings`, `prepTime`, and `cookTime` are optional
