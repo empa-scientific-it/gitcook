@@ -88,7 +88,7 @@ git checkout -b add-your-recipe-name
 - Add or edit files under `src/content/docs/`
 - Use [RECIPE_TEMPLATE.md](./RECIPE_TEMPLATE.md) for recipe pages
 
-#### Check Locally
+#### Check Changes Locally
 
 ```bash
 npm run dev
