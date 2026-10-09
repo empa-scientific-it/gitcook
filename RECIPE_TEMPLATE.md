@@ -8,7 +8,7 @@ Remember to choose the right folder to place your recipe in.
 - Recipe pages are MDX files inside `src/content/docs/`
 - Use a lowercase, hyphenated file name such as `chocolate-chip-cookies.mdx`
 - Put the file in the correct category folder
-- Include `title`, `description`, `category`, and `ingredients` in the recipe details block at the top
+- Include `title`, `description`, and `ingredients` in the recipe details block at the top
 - Use ingredient quantities where possible
 - Import `Steps` from `@astrojs/starlight/components`
 - Write the method inside the `<Steps>` block
@@ -19,20 +19,10 @@ Remember to choose the right folder to place your recipe in.
 
 - `title`
 - `description`
-- `category`
 - `ingredients`
 - `servings`
 - `prepTime`
 - `cookTime`
-
-**Supported recipe categories are:**
-
-- `appetizer`
-- `first-course`
-- `main-course`
-- `side-dish`
-- `dessert`
-- `beverage`
 
 ## Template
 
@@ -40,7 +30,6 @@ Remember to choose the right folder to place your recipe in.
 ---
 title: Your Recipe Name
 description: A short introduction to the dish.
-category: dessert
 ingredients:
   - 2 cups ingredient one
   - 1 tablespoon ingredient two
