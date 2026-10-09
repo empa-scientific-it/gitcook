@@ -13,7 +13,7 @@ For the recipe format itself, use [RECIPE_TEMPLATE.md](./RECIPE_TEMPLATE.md).
 
 Each recipe page should follow the template and rules found [RECIPE_TEMPLATE.md](./RECIPE_TEMPLATE.md).
 
-## Contribute in the GitHub Web Interface
+## Contribute via the GitHub Web Interface
 
 Use this when you want to make a quick recipe or documentation change without cloning the repo.
 
