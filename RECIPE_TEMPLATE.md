@@ -43,7 +43,7 @@ description: A short introduction to the dish.
 category: dessert
 ingredients:
   - 2 cups ingredient one
-  - 1 tablespoon ingredient two
+  - 1 tbsp ingredient two
 servings: 4
 prepTime: 15 minutes
 cookTime: 30 minutes
