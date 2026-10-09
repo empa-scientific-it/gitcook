@@ -2,16 +2,6 @@ import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
 import { docsSchema } from "@astrojs/starlight/schema";
 
-// Define recipe categories
-const recipeCategories = [
-  "appetizer",
-  "first-course",
-  "main-course",
-  "side-dish",
-  "dessert",
-  "beverage",
-] as const;
-
 const docs = defineCollection({
   loader: glob({
     pattern: "**/[^_]*.(md|mdx)",
@@ -20,7 +10,6 @@ const docs = defineCollection({
   schema: docsSchema({
     extend: z.object({
       // Recipe-specific fields (optional, only used for recipe pages)
-      category: z.enum(recipeCategories).optional(),
       description: z.string().optional(),
       ingredients: z.array(z.string()).optional(),
       servings: z.number().positive().optional(),
