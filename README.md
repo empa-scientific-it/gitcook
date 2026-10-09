@@ -34,7 +34,7 @@ npm run dev
 
 The local site runs at `http://localhost:4321`.
 
-## Commands
+### Commands
 
 | Command | Purpose |
 | :-- | :-- |
@@ -44,7 +44,7 @@ The local site runs at `http://localhost:4321`.
 | `npm run preview` | Preview the production build locally |
 | `npm run astro -- ...` | Run Astro CLI commands |
 
-## Project Structure
+### Project Structure
 
 ```text
 .
@@ -64,6 +64,54 @@ The local site runs at `http://localhost:4321`.
 ├── package.json
 └── tsconfig.json
 ```
+
+### Contribute by Developing Locally
+
+Use this when you want a local preview or need to make larger edits.
+
+#### Setup
+
+```bash
+git clone https://github.com/empa-scientific-it/gitcook.git
+cd gitcook
+npm install
+```
+
+#### Create a Branch
+
+```bash
+git checkout -b add-your-recipe-name
+```
+
+#### Make Your Change
+
+- Add or edit files under `src/content/docs/`
+- Use [RECIPE_TEMPLATE.md](./RECIPE_TEMPLATE.md) for recipe pages
+
+#### Check Locally
+
+```bash
+npm run dev
+npm run build
+```
+
+#### Commit and Push
+
+```bash
+git add .
+git commit -m "Add your recipe name"
+git push origin add-your-recipe-name
+```
+
+Then open a pull request against this repository.
+
+#### Pull Request Checklist
+
+- [ ] Recipe or docs change is focused and complete
+- [ ] File names are lowercase and hyphenated
+- [ ] Recipe follows [RECIPE_TEMPLATE.md](./RECIPE_TEMPLATE.md)
+- [ ] Local build succeeds with `npm run build`
+- [ ] Pull request description explains the change
 
 ## Configuration Notes
 
